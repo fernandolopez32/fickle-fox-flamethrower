@@ -18,5 +18,6 @@ document.write("2 % 3 = ", 2 % 3, "<br/>");
 document.write("Max Num = ", Number.MAX_VALUE, "<br/>");
 document.write("Min Num = ", Number.MIN_VALUE,"<br/>");
 
+// will not be precise after 16 digits
 precisionTest = 0.1000000000000001;
 document.write(precisionTest + 0.1000000000000001, "<br/>");
