@@ -6,3 +6,7 @@ function echo(input){
 function logInput(input){
     console.log(( typeof input ==='string')? input + " is a string" : input + " is not a string");
 }
+// function that returns second index of first argument//
+function indexOfIgnoreCase(str1,str2){
+    return str1.toLowerCase().indexOf(str1);
+}
